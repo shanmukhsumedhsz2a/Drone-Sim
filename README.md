@@ -14,20 +14,20 @@ Genetic Algorithm
 - NewIndividual - Adds new random Individual to next generation to introduce completely new genomes
 
 - Algorithm also tracks and graphs the avergae fitness of each class of individuals as well as tracks the best fitness, average fitness of best 10 individuals and also overall average fitness
-- it also allows for checkpoints to pause training and change paremters in the algorithm or environment
+- It also allows for checkpoints to pause training and change paremters in the algorithm or environment
 
 Neural Networks
 - Vanilla neural network library implemented using numpy
-- made for modularity and customization with various activation functions
-- does not include backpropogation
+- Made for modularity and customization with various activation functions
+- Does not include backpropogation
 
 Training
-- was done using curiculum learning enabled by checkpoints in the genetic algorithm
+- Was done using curiculum learning enabled by checkpoints in the genetic algorithm
 - Reward structure changed as follows
   1. Initially rewards were based solely on hovering time so as to teachit basic controls
-  2. next rewards based on motion towards the target were given to incentivize target seeking
-  3. next rewards based on motion towards target were gradually reduced and replaced by reward due to hovering at target
-  4. finally rewards also included a time factor allowing for more dynamic and quick motions toward the target
+  2. Next rewards based on motion towards the target were given to incentivize target seeking
+  3. Next rewards based on motion towards target were gradually reduced and replaced by reward due to hovering at target
+  4. Finally rewards also included a time factor allowing for more dynamic and quick motions toward the target
  
 - Fully Trained model can be used by running test.py
 
